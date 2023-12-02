@@ -532,5 +532,75 @@
 &lt;ul&gt;&lt;li&gt;November 30, 2023: Initial Publication&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
+    <item>
+      <title>The Week in Ransomware - December 1st 2023 - Police hits affiliates</title>
+      <link>https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-december-1st-2023-police-hits-affiliates/</link>
+      <description>An international law enforcement operation claims to have dismantled a ransomware affiliate operation in Ukraine, which was responsible for attacks on organizations in 71 countries. [...]</description>
+    </item>
+    <item>
+      <title>TrickBot malware dev pleads guilty, faces 35 years in prison</title>
+      <link>https://www.bleepingcomputer.com/news/security/trickbot-malware-dev-pleads-guilty-faces-35-years-in-prison/</link>
+      <description>On Thursday, a Russian national pleaded guilty to charges related to his involvement in developing and deploying the Trickbot malware, which was used in attacks against hospitals, companies, and individuals in the United States and worldwide. [...]</description>
+    </item>
+    <item>
+      <title>Hackers use new Agent Raccoon malware to backdoor US targets</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-use-new-agent-raccoon-malware-to-backdoor-us-targets/</link>
+      <description>A novel malware named 'Agent Raccoon' (or Agent Racoon) is being used in cyberattacks against organizations in the United States, the Middle East, and Africa. [...]</description>
+    </item>
+    <item>
+      <title>French government recommends against using foreign chat apps</title>
+      <link>https://www.bleepingcomputer.com/news/security/french-government-recommends-against-using-foreign-chat-apps/</link>
+      <description>Prime Minister of France Élisabeth Borne signed a circular last week requesting all government employees to uninstall foreign communication apps such as Signal, WhatsApp, and Telegram by December 8, 2023, in favor of a French messaging app named 'Olvid.' [...]</description>
+    </item>
+    <item>
+      <title>VMware fixes critical Cloud Director auth bypass unpatched for 2 weeks</title>
+      <link>https://www.bleepingcomputer.com/news/security/vmware-fixes-critical-cloud-director-auth-bypass-unpatched-for-2-weeks/</link>
+      <description>VMware has fixed a critical authentication bypass vulnerability in Cloud Director appliance deployments, a bug that was left unpatched for over two weeks since it was disclosed on November 14th. [...]</description>
+    </item>
+    <item>
+      <title>Windows 10 KB5032278 update adds Copilot AI assistant, fixes 13 bugs</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5032278-update-adds-copilot-ai-assistant-fixes-13-bugs/</link>
+      <description>Microsoft has started rolling out its Copilot AI assistant to Windows 10 with the KB5032278 November 2023 non-security preview update for systems running Windows 10, version 22H2. [...]</description>
+    </item>
+    <item>
+      <title>LogoFAIL attack can install UEFI bootkits through bootup logos</title>
+      <link>https://www.bleepingcomputer.com/news/security/logofail-attack-can-install-uefi-bootkits-through-bootup-logos/</link>
+      <description>Multiple security vulnerabilities collectively named LogoFAIL affect image-parsing components in the UEFI code from various vendors. Researchers warn that they could be exploited to hijack the execution flow of the booting process and to deliver bootkits. [...]</description>
+    </item>
+    <item>
+      <title>US govt sanctions North Korea’s Kimsuky hacking group</title>
+      <link>https://www.bleepingcomputer.com/news/security/us-govt-sanctions-north-koreas-kimsuky-hacking-group/</link>
+      <description>The Treasury Department's Office of Foreign Assets Control (OFAC) has sanctioned the North Korean-backed Kimsuky hacking group for stealing intelligence in support of the country's strategic goals. [...]</description>
+    </item>
+    <item>
+      <title>WhatsApp's new Secret Code feature hides your locked chats</title>
+      <link>https://www.bleepingcomputer.com/news/security/whatsapps-new-secret-code-feature-hides-your-locked-chats/</link>
+      <description>WhatsApp has introduced a new Secret Code feature that allows users to hide their locked chats by setting a custom password. [...]</description>
+    </item>
+    <item>
+      <title>Get 20% off Emsisoft's Enterprise Security EDR solution for the holidays</title>
+      <link>https://www.bleepingcomputer.com/news/security/get-20-percent-off-emsisofts-enterprise-security-edr-solution-for-the-holidays/</link>
+      <description>Emsisoft is having a holiday deal where you can get 20% off 1-year licenses of the Emsisoft Enterprise Security EDR solution through December 17th, 2023, with no license limits. [...]</description>
+    </item>
+    <item>
+      <title>Apple fixes two new iOS zero-days in emergency updates</title>
+      <link>https://www.bleepingcomputer.com/news/apple/apple-fixes-two-new-ios-zero-days-in-emergency-updates/</link>
+      <description>Apple released emergency security updates to fix two zero-day vulnerabilities exploited in attacks and impacting iPhone, iPad, and Mac devices, reaching 20 zero-days patched since the start of the year. [...]</description>
+    </item>
+    <item>
+      <title>Capital Health Hospitals hit by cyberattack causing IT outages</title>
+      <link>https://www.bleepingcomputer.com/news/security/capital-health-hospitals-hit-by-cyberattack-causing-it-outages/</link>
+      <description>Capital Health hospitals and physician offices across New Jersey are experiencing IT outages after a cyberattack hit the non-profit organization's network earlier this week. [...]</description>
+    </item>
+    <item>
+      <title>Cactus ransomware exploiting Qlik Sense flaws to breach networks</title>
+      <link>https://www.bleepingcomputer.com/news/security/cactus-ransomware-exploiting-qlik-sense-flaws-to-breach-networks/</link>
+      <description>Cactus ransomware has been exploiting critical vulnerabilities in the Qlik Sense data analytics solution to get initial access on corporate networks. [...]</description>
+    </item>
+    <item>
+      <title>Staples confirms cyberattack behind service outages, delivery issues</title>
+      <link>https://www.bleepingcomputer.com/news/security/staples-confirms-cyberattack-behind-service-outages-delivery-issues/</link>
+      <description>American office supply retailer Staples took down some of its systems earlier this week after a cyberattack to contain the breach's impact and protect customer data. [...]</description>
+    </item>
   </channel>
 </rss>
