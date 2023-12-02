@@ -1,4 +1,7 @@
 import feedparser
+import subprocess
+import os
+
 from xml.dom.minidom import Document
 
 # List of RSS feed URLs
@@ -61,3 +64,11 @@ for url in feeds:
 # Save the document to a file
 with open("combined_feed.xml", "w") as f:
     f.write(doc.toprettyxml(indent="  "))
+
+# Navigate to your repo's directory using a relative path or environment variable
+os.chdir(os.environ.get('CTI-RSS_RepoPath', '.'))
+
+# Git commands to add, commit, and push
+subprocess.run(["git", "add", "combined_feed.xml"], shell=True)
+subprocess.run(["git", "commit", "-m", "Updated RSS feed"], shell=True)
+subprocess.run(["git", "push"], shell=True)
