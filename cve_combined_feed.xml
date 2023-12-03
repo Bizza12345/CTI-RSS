@@ -1,0 +1,1475 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>Combined Cybersecurity Feed</title>
+    <link>https://github.com/Bizza12345/CTI-RSS</link>
+    <description>A combined feed of various cybersecurity RSS feeds</description>
+    <item>
+      <title>Cisco Secure Web Appliance Content Encoding Filter Bypass Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Secure%20Web%20Appliance%20Content%20Encoding%20Filter%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the scanning engines of Cisco AsyncOS Software for Cisco Secure Web Appliance could allow an unauthenticated, remote attacker to bypass a configured rule, allowing traffic onto a network that should have been blocked.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper detection of malicious traffic when the traffic is encoded with a specific content format. An attacker could exploit this vulnerability by using an affected device to connect to a malicious server and receiving crafted HTTP responses. A successful exploit could allow the attacker to bypass an explicit block rule and receive traffic that should have been rejected by the device.&lt;/p&gt;
+&lt;p&gt;There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20215</description>
+    </item>
+    <item>
+      <title>HTTP/2 Rapid Reset Attack Affecting Cisco Products: October 2023</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-http2-reset-d8Kf32vZ?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=HTTP/2%20Rapid%20Reset%20Attack%20Affecting%20Cisco%20Products:%20October%202023&amp;vs_k=1</link>
+      <description>&lt;p&gt;On October 10, 2023, the following HTTP/2 protocol-level weakness, which enables a novel distributed denial of service (DDoS) attack technique, was disclosed:&lt;/p&gt;
+&lt;p&gt;CVE-2023-44487: HTTP/2 Rapid Reset&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For a description of this vulnerability, see the following publications:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;How it works: The novel HTTP/2 'Rapid Reset' DDoS attack&lt;/a&gt;&amp;nbsp;(Google)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;HTTP/2 Zero-Day vulnerability results in record-breaking DDoS attacks&lt;/a&gt; (Cloudflare)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/security/security-bulletins/AWS-2023-011/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt; CVE-2023-44487 - HTTP/2 Rapid Reset Attack&lt;/a&gt; (AWS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This advisory will be updated as additional information becomes available.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-http2-reset-d8Kf32vZ&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-http2-reset-d8Kf32vZ&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-44487</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software and Cisco FirePOWER Services ICMPv6 with Snort 2 Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-icmpv6-dos-4eMkLuN?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20and%20Cisco%20FirePOWER%20Services%20ICMPv6%20with%20Snort%202%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in ICMPv6 inspection when configured with the Snort 2 detection engine for Cisco Firepower Threat Defense (FTD) Software or Cisco FirePOWER Services could allow an unauthenticated, remote attacker to cause the CPU of an affected device to spike to 100 percent, which could stop all traffic processing and result in a denial of service (DoS) condition. FTD management traffic is not affected by this vulnerability.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper error checking when parsing fields within the ICMPv6 header. An attacker could exploit this vulnerability by sending a crafted ICMPv6 packet through an affected device. A successful exploit could allow the attacker to cause the device to exhaust CPU resources and stop processing traffic, resulting in a DoS condition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To recover from the DoS condition, the Snort 2 Detection Engine, the Cisco FTD device, or the Cisco FirePOWER Services device may need to be restarted. For more information, see the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#details&quot;&gt;Details&lt;/a&gt; section of this advisory.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-icmpv6-dos-4eMkLuN&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-icmpv6-dos-4eMkLuN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20083</description>
+    </item>
+    <item>
+      <title>Cisco Secure Client Software Denial of Service Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-accsc-dos-9SLzkZ8?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Secure%20Client%20Software%20Denial%20of%20Service%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in Cisco Secure Client Software, formerly AnyConnect Secure Mobility Client, could allow an authenticated, local attacker to cause a denial of service (DoS) condition on an affected system.&lt;/p&gt;
+&lt;p&gt;These vulnerabilities are due to an out-of-bounds memory read from Cisco Secure Client Software. An attacker could exploit these vulnerabilities by logging in to an affected device at the same time that another user is accessing Cisco Secure Client on the same system, and then sending crafted packets to a port on that local host. A successful exploit could allow the attacker to crash the VPN Agent service, causing it to be unavailable to all users of the system. To exploit these vulnerabilities, the attacker must have valid credentials on a multi-user system.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-accsc-dos-9SLzkZ8&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-accsc-dos-9SLzkZ8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attention:&lt;/strong&gt; Simplifying the Cisco portfolio includes the renaming of security products under one brand: Cisco Secure. For more information, see &lt;a href=&quot;https://www.cisco.com/c/en/us/products/security/secure-names.html&quot;&gt;Meet Cisco Secure&lt;/a&gt;.&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20240,CVE-2023-20241</description>
+    </item>
+    <item>
+      <title>Cisco IP Phone Stored Cross-Site Scripting Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uipphone-xss-NcmUykqA?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IP%20Phone%20Stored%20Cross-Site%20Scripting%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the web-based management interface of a small subset of Cisco IP Phones could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface on an affected device.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by persuading a user of an affected interface to view a page containing malicious HTML or script content. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information. To exploit this vulnerability, the attacker must have valid credentials to access the web-based management interface of the affected device.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uipphone-xss-NcmUykqA&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uipphone-xss-NcmUykqA&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20265</description>
+    </item>
+    <item>
+      <title>Cisco Secure Endpoint for Windows Scanning Evasion Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-endpoint-dos-RzOgFKnd?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Secure%20Endpoint%20for%20Windows%20Scanning%20Evasion%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the endpoint software of Cisco Secure Endpoint for Windows could allow an authenticated, local attacker to evade endpoint protection within a limited time window.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to a timing issue that occurs between various software components. An attacker could exploit this vulnerability by persuading a user to put a malicious file into a specific folder and then persuading the user to execute the file within a limited time window. A successful exploit could allow the attacker to cause the endpoint software to fail to quarantine the malicious file or kill its process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This vulnerability only applies to deployments that have the Windows Folder Redirection feature enabled.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-endpoint-dos-RzOgFKnd&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-endpoint-dos-RzOgFKnd&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20084</description>
+    </item>
+    <item>
+      <title>Cisco Identity Services Engine Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-mult-j-KxpNynR?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Identity%20Services%20Engine%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to upload malicious files to the web root of the application or conduct a cross-site scripting (XSS) attack against a user of the web-based management interface of an affected device. To exploit these vulnerabilities, an attacker must have valid credentials on an affected device.&lt;/p&gt;
+&lt;p&gt;For more information about these vulnerabilities, see the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#details&quot;&gt;Details&lt;/a&gt; section of this advisory.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-mult-j-KxpNynR&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-secure-endpoint-dos-RzOgFKnd&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20208,CVE-2023-20272</description>
+    </item>
+    <item>
+      <title>Cisco AppDynamics PHP Agent Privilege Escalation Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appd-php-authpriv-gEBwTvu5?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20AppDynamics%20PHP%20Agent%20Privilege%20Escalation%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the installer script of Cisco AppDynamics PHP Agent could allow an authenticated, local attacker to elevate privileges on an affected device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient permissions that are set by the PHP Agent Installer on the PHP Agent install directory. An attacker could exploit this vulnerability by modifying objects in the PHP Agent install directory, which would run with the same privileges as PHP. A successful exploit could allow a lower-privileged attacker to elevate their privileges to &lt;em&gt;root&lt;/em&gt; on an affected device.&lt;/p&gt;
+
+&lt;p&gt;Cisco AppDynamics has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appd-php-authpriv-gEBwTvu5&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appd-php-authpriv-gEBwTvu5&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20274</description>
+    </item>
+    <item>
+      <title>Cisco Integrated Management Controller Cross-Site Scripting Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-UMYtYEtr?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Integrated%20Management%20Controller%20Cross-Site%20Scripting%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient validation of user input. An attacker could exploit this vulnerability by persuading a user of an affected interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the browser of the targeted user or access sensitive, browser-based information.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-UMYtYEtr&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-UMYtYEtr&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20228</description>
+    </item>
+    <item>
+      <title>cURL and libcurl  Vulnerability Affecting Cisco Products: October 2023</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-curl-libcurl-D9ds39cV?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=cURL%20and%20libcurl%20%20Vulnerability%20Affecting%20Cisco%20Products:%20October%202023&amp;vs_k=1</link>
+      <description>&lt;p&gt;On October 11, 2023, cURL released Version 8.4.0 of the cURL utility and the libcurl library. This release addressed two security vulnerabilities:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2023-38545 &amp;ndash; High Security Impact Rating (SIR)&lt;/li&gt;
+&lt;li&gt;CVE-2023-38546 &amp;ndash; Low SIR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This advisory covers CVE-2023-38545 only. For more information about this vulnerability, see the &lt;a href=&quot;https://curl.se/docs/CVE-2023-38545.html&quot;&gt;cURL advisory&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-curl-libcurl-D9ds39cV&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;-1&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-curl-libcurl-D9ds39cV&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-38545</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software ICMPv6 Message Processing Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-icmpv6-t5TzqwNd?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20ICMPv6%20Message%20Processing%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in ICMPv6 processing of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper processing of ICMPv6 messages. An attacker could exploit this vulnerability by sending crafted&amp;nbsp;ICMPv6 messages to a targeted Cisco ASA or FTD system with IPv6 enabled. A successful exploit could allow the attacker to cause the device to reload, resulting in a DoS condition.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-icmpv6-t5TzqwNd&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;0&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-icmpv6-t5TzqwNd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20086</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Remote Access VPN Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-dos-3GhZQBAS?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20Remote%20Access%20VPN%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the remote access VPN feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper handling of HTTPS requests. An attacker could exploit this vulnerability by sending crafted HTTPS requests to an affected system. A successful exploit could allow the attacker to cause resource exhaustion, resulting in a DoS condition.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-dos-3GhZQBAS&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;0&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-dos-3GhZQBAS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20095</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance and Firepower Threat Defense Software VPN Web Client Services Client-Side Request Smuggling Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-LOeKsNmO?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20and%20Firepower%20Threat%20Defense%20Software%20VPN%20Web%20Client%20Services%20Client-Side%20Request%20Smuggling%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the VPN web client services component of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct browser-based attacks against users of an affected device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper validation of input that is passed to the VPN web client services component before being returned to the browser that is in use. An attacker could exploit this vulnerability by persuading a user to visit a website that is designed to pass malicious requests to a device that is running Cisco ASA Software or Cisco FTD Software and has web services endpoints supporting VPN features enabled. A successful exploit could allow the attacker to reflect malicious input from the affected&amp;nbsp;device to the browser that is in use and conduct browser-based attacks, including cross-site scripting attacks. The attacker could not directly impact the affected device.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-LOeKsNmO&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-LOeKsNmO&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2022-20713</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software AnyConnect Access Control List Bypass Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ac-acl-bypass-bwd7q6Gb?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20AnyConnect%20Access%20Control%20List%20Bypass%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in the per-user-override feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to bypass a configured access control list (ACL) and allow traffic that should be denied to flow through an affected device.&lt;/p&gt;
+&lt;p&gt;These vulnerabilities are due to a logic error that could occur when the affected software constructs and applies per-user-override rules. An attacker could exploit these vulnerabilities by connecting to a network through an affected device that has a vulnerable configuration. A successful exploit could allow the attacker to bypass the interface ACL and access resources that should be protected.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ac-acl-bypass-bwd7q6Gb&quot; rel=&quot;nofollow&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ac-acl-bypass-bwd7q6Gb&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20245,CVE-2023-20256</description>
+    </item>
+    <item>
+      <title>Multiple Cisco Products Snort FTP Inspection Bypass Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-ftd-zXYtnjOM?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Multiple%20Cisco%20Products%20Snort%20FTP%20Inspection%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple Cisco products are affected by a vulnerability in the Snort detection engine that could allow an unauthenticated, remote attacker to bypass the configured policies on an affected system.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to a flaw in the FTP module of the Snort detection engine. An attacker could exploit this vulnerability by sending crafted FTP traffic through an affected device. A successful exploit could allow the attacker to bypass FTP inspection and deliver a malicious payload.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-ftd-zXYtnjOM&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;0&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-ftd-zXYtnjOM&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20071</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software SSL/TLS URL Category and Snort 3 Detection Engine Bypass and Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sa-ftd-snort3-urldos-OccFQTeX?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20SSL/TLS%20URL%20Category%20and%20Snort%203%20Detection%20Engine%20Bypass%20and%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the SSL file policy implementation of Cisco Firepower Threat Defense (FTD) Software that occurs when the SSL/TLS connection is configured with a URL Category and the Snort 3 detection engine could allow an unauthenticated, remote attacker to cause the Snort 3 detection engine to unexpectedly restart.&lt;/p&gt;
+&lt;p&gt;This vulnerability exists because  a logic error occurs when a Snort 3 detection engine inspects an SSL/TLS connection that has either a URL Category configured on the SSL file policy or a URL Category configured on an access control policy with TLS server identity discovery enabled. Under specific, time-based constraints, an attacker could exploit this vulnerability by sending a crafted SSL/TLS connection through an affected device. A successful exploit could allow the attacker to trigger an unexpected reload of the Snort 3 detection engine, resulting in either a bypass or denial of service (DoS) condition, depending on device configuration. See the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#details&quot;&gt;Details&lt;/a&gt; section of this advisory for more information. The Snort 3 detection engine will restart automatically. No manual intervention is required.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sa-ftd-snort3-urldos-OccFQTeX&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sa-ftd-snort3-urldos-OccFQTeX&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20177</description>
+    </item>
+    <item>
+      <title>Cisco Identity Services Engine Command Injection Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-injection-QeXegrCw?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Identity%20Services%20Engine%20Command%20Injection%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in Cisco Identity Services Engine (ISE) could allow an authenticated, local attacker to perform command injection attacks on the underlying operating system and elevate privileges to &lt;em&gt;root&lt;/em&gt;. To exploit these vulnerabilities, an attacker must have valid credentials on an affected device.&lt;/p&gt;
+&lt;p&gt;For more information about these vulnerabilities, see the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#details&quot;&gt;Details&lt;/a&gt; section of this advisory.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-injection-QeXegrCw&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-injection-QeXegrCw&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20170,CVE-2023-20175</description>
+    </item>
+    <item>
+      <title>Cisco Identity Services Engine Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-FceLP4xs?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Identity%20Services%20Engine%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in Cisco Identity Services Engine (ISE) could allow an attacker to upload arbitrary files or disable Cisco Discovery Protocol (CDP) processing on an affected device.&lt;/p&gt;
+&lt;p&gt;For more information about these vulnerabilities, see the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#details&quot; rel=&quot;nofollow&quot;&gt;Details&lt;/a&gt; section of this advisory.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-FceLP4xs&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-FceLP4xs&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20195,CVE-2023-20196,CVE-2023-20213</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software Snort 3 Geolocation IP Filter Bypass Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftdsnort3sip-bypass-LMz2ThKn?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20Snort%203%20Geolocation%20IP%20Filter%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the IP geolocation rules of Snort 3 could allow an unauthenticated, remote attacker to potentially bypass IP address restrictions.&lt;/p&gt;
+&lt;p&gt;This vulnerability exists because the configuration for IP geolocation rules is not parsed properly. An attacker could exploit this vulnerability by spoofing an IP address until they bypass the restriction. A successful exploit could allow the attacker to bypass location-based IP address restrictions.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftdsnort3sip-bypass-LMz2ThKn&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;0&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftdsnort3sip-bypass-LMz2ThKn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20267</description>
+    </item>
+    <item>
+      <title>Multiple Cisco Products Snort 3 Access Control Policy Bypass Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3acp-bypass-3bdR2BEh?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Multiple%20Cisco%20Products%20Snort%203%20Access%20Control%20Policy%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple Cisco products are affected by a vulnerability in Snort access control policies that could allow an unauthenticated, remote attacker to bypass the configured policies on an affected system.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to a logic error that occurs when the access control policies are being populated. An attacker could exploit this vulnerability by establishing a connection to an affected device. A successful exploit could allow the attacker to bypass configured access control rules on the affected system.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3acp-bypass-3bdR2BEh&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3acp-bypass-3bdR2BEh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20246</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software Snort 3 Detection Engine Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-uAnUntcV?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20Snort%203%20Detection%20Engine%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the TLS 1.3 implementation of the Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the Snort 3 detection engine to unexpectedly restart.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to a logic error in how memory allocations are handled during a TLS 1.3 session. Under specific, time-based constraints, an attacker could exploit this vulnerability by sending a crafted TLS 1.3 message sequence through an affected device. A successful exploit could allow the attacker to cause the Snort 3 detection engine to reload, resulting in a denial of service (DoS) condition. While the Snort detection engine reloads, packets going through the FTD device that are sent to the Snort detection engine will be dropped. The Snort detection engine will restart automatically. No manual intervention is required.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-uAnUntcV&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-uAnUntcV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20070</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software SSL and Snort 3 Detection Engine Bypass and Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-8U4HHxH8?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20SSL%20and%20Snort%203%20Detection%20Engine%20Bypass%20and%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the SSL/TLS certificate handling of Snort 3 Detection Engine integration with Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the Snort 3 detection engine to restart.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to a logic error that occurs when an SSL/TLS certificate that is under load is accessed when it is initiating an SSL connection. Under specific, time-based constraints, an attacker could exploit this vulnerability by sending a high rate of SSL/TLS connection requests to be inspected by the Snort 3 detection engine on an affected device. A successful exploit could allow the attacker to cause the Snort 3 detection engine to reload, resulting in either a bypass or a denial of service (DoS) condition, depending on device configuration. See the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-smb-3nfhJtr#details&quot;&gt;Details&lt;/a&gt; section of this advisory for more information. The Snort detection engine will restart automatically. No manual intervention is required.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-8U4HHxH8&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;0&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-8U4HHxH8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20031</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software SMB Protocol Snort 3 Detection Engine Bypass and Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-smbsnort3-dos-pfOjOYUV?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20SMB%20Protocol%20Snort%203%20Detection%20Engine%20Bypass%20and%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the interaction between the Server Message Block (SMB) protocol preprocessor and the Snort 3 detection engine for Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to bypass the configured policies or cause a denial of service (DoS) condition on an affected device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper error-checking when the Snort 3 detection engine is processing SMB traffic. An attacker could exploit this vulnerability by sending a crafted SMB packet stream through an affected device. A successful exploit could allow the attacker to cause the Snort process to reload, resulting in a DoS condition.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-smbsnort3-dos-pfOjOYUV&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-smbsnort3-dos-pfOjOYUV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20270</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software for Cisco Firepower 2100 Series Firewalls Inspection Rules Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-intrusion-dos-DfT7wyGC?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20for%20Cisco%20Firepower%202100%20Series%20Firewalls%20Inspection%20Rules%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the internal packet processing of Cisco Firepower Threat Defense (FTD) Software for Cisco Firepower 2100 Series Firewalls could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper handling of certain packets when they are sent to the inspection engine. An attacker could exploit this vulnerability by sending a series of crafted packets to an affected device. A successful exploit could allow the attacker to deplete all 9,472 byte blocks on the device, resulting in traffic loss across the device or an unexpected reload of the device. If the device does not reload on its own, a manual reload of the device would be required to recover from this state.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-intrusion-dos-DfT7wyGC&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-intrusion-dos-DfT7wyGC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20244</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Threat Defense Software and Firepower Management Center Software Code Injection Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-fmc-code-inj-wSHrgz8L?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20and%20Firepower%20Management%20Center%20Software%20Code%20Injection%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the inter-device communication mechanisms between devices that are running Cisco Firepower Threat Defense (FTD) Software and devices that are running Cisco Firepower Management (FMC) Software could allow an authenticated, local attacker to execute arbitrary commands with &lt;em&gt;root&lt;/em&gt; permissions on the underlying operating system of an affected device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by accessing the expert mode of an affected device and submitting specific commands to a connected system. A successful exploit could allow the attacker to execute arbitrary code in the context of an FMC device if the attacker has administrative privileges on an associated FTD device. Alternatively, a successful exploit could allow the attacker to execute arbitrary code in the context of an FTD device if the attacker has administrative privileges on an associated FMC device.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-fmc-code-inj-wSHrgz8L&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-fmc-code-inj-wSHrgz8L&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20063</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Management Center Software Cross-Site Scripting Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-sK2gkfvJ?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Cross-Site%20Scripting%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an unauthenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface of an affected device.&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br /&gt;These vulnerabilities are due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit these vulnerabilities by inserting crafted input into various data fields in an affected interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information. In some cases, it is also possible to cause a temporary availability impact to portions of the FMC Dashboard.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-sK2gkfvJ&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-sK2gkfvJ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20005,CVE-2023-20041,CVE-2023-20074,CVE-2023-20206</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Management Center Software Log API Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-logview-dos-AYJdeX55?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Log%20API%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in a logging API in Cisco Firepower Management Center (FMC) Software could allow an unauthenticated, remote attacker to cause the device to become unresponsive or trigger an unexpected reload. This vulnerability could also allow an attacker with valid user credentials, but not &lt;em&gt;Administrator&lt;/em&gt; privileges, to view a system log file that they would not normally have access to.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to a lack of rate-limiting of requests that are sent to a specific API that is related to an FMC log. An attacker could exploit this vulnerability by sending a high rate of HTTP requests to the API. A successful exploit could allow the attacker to cause a denial of service (DoS) condition due to the FMC CPU spiking to 100 percent utilization or to the device reloading. CPU utilization would return to normal if the attack traffic was stopped before an unexpected reload was triggered.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-logview-dos-AYJdeX55&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-logview-dos-AYJdeX55&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20155</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Management Center Software Arbitrary File Download Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-file-download-7js4ug2J?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Arbitrary%20File%20Download%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the file download feature&amp;nbsp;of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to download arbitrary files from an affected system.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to a lack of input sanitation. An attacker could exploit this vulnerability by sending a crafted HTTPS request. A successful exploit could allow the attacker to download arbitrary files from the affected system.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-file-download-7js4ug2J&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;0&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-file-download-7js4ug2J&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20114</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Management Center Software Command Injection  Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-cmdinj-bTEgufOX?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Command%20Injection%20%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system. To exploit these vulnerabilities, the attacker must have valid device credentials, but does not need &lt;em&gt;Administrator &lt;/em&gt;privileges.&lt;/p&gt;
+&lt;p&gt;These vulnerabilities are due to insufficient validation of user-supplied input for certain configuration options. An attacker could exploit these vulnerabilities by using crafted input within the device configuration GUI. A successful exploit could allow the attacker to execute arbitrary commands on the device, including on the underlying operating system, which could also affect the availability of the device.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-cmdinj-bTEgufOX&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-cmdinj-bTEgufOX&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20219,CVE-2023-20220</description>
+    </item>
+    <item>
+      <title>Cisco Firepower Management Center Software Command Injection Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-cmd-inj-29MP49hN?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Command%20Injection%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the web services interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to execute certain unauthorized configuration commands on a Firepower Threat Defense (FTD) device that is managed by the FMC Software.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient authorization of configuration commands that are sent through the web service interface. An attacker could exploit this vulnerability by authenticating to the FMC web services interface and sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to execute certain configuration commands on the targeted FTD device. To successfully exploit this vulnerability, an attacker would need valid credentials on the FMC Software.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-cmd-inj-29MP49hN&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-cmd-inj-29MP49hN&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Critical
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20048</description>
+    </item>
+    <item>
+      <title>Cisco Meeting Server Web Bridge Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cms-segfault-G6ES4Ve8?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Meeting%20Server%20Web%20Bridge%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in an API of the Web Bridge feature of Cisco Meeting Server could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient validation of HTTP requests. An attacker could exploit this vulnerability by sending crafted HTTP packets to an affected device. A successful exploit could allow the attacker to cause a partial availability condition, which could cause ongoing video calls to be dropped due to the invalid packets reaching the Web Bridge.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a class=&quot;web web-inline form-control-static&quot; href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cms-segfault-G6ES4Ve8&quot; id=&quot;u_psirt_publication.u_public_url_link&quot; name=&quot;u_psirt_publication.u_public_url_link&quot; tabindex=&quot;0&quot; target=&quot;gsft_link&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cms-segfault-G6ES4Ve8&lt;/a&gt;&lt;/p&gt;
+
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20255</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software AnyConnect SSL/TLS VPN Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ssl-dos-kxG8mpUA?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20AnyConnect%20SSL/TLS%20VPN%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the AnyConnect SSL VPN feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to an implementation error within the SSL/TLS session handling process that can prevent the release of a session handler under specific conditions. An attacker could exploit this vulnerability by sending crafted SSL/TLS traffic to an affected device, increasing the probability of session handler leaks. A successful exploit could allow the attacker to eventually deplete the available session handler pool, preventing new sessions from being established and causing a DoS condition.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ssl-dos-kxG8mpUA&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ssl-dos-kxG8mpUA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20042</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software SAML Assertion Hijack Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-saml-hijack-ttuQfyz?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20SAML%20Assertion%20Hijack%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the implementation of Security Assertion Markup Language (SAML) 2.0 single sign-on (SSO) for remote access VPN in Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to intercept the SAML assertion of a user who is authenticating to a remote access VPN session.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient validation of the login URL. An attacker could exploit this vulnerability by persuading a user to access a site that is under the control of the attacker, allowing the attacker to modify the login URL. A successful exploit could allow the attacker to intercept a successful SAML assertion and use that assertion to establish a remote access VPN session toward the affected device with the identity and permissions of the hijacked user, resulting in access to the protected network.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-saml-hijack-ttuQfyz&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-saml-hijack-ttuQfyz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20264</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Remote Access SSL VPN Multiple Certificate Authentication Bypass Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-multi-cert-dzA3h5PT?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Multiple%20Certificate%20Authentication%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the remote access SSL VPN feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an authenticated, remote attacker to bypass a configured multiple certificate authentication policy and connect using only a valid username and password.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper error handling during remote access VPN authentication. An attacker could exploit this vulnerability by sending crafted requests during remote access VPN session establishment. A successful exploit could allow the attacker to bypass the configured multiple certificate authentication policy while retaining the privileges and permissions associated with the original connection profile.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-multi-cert-dzA3h5PT&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-multi-cert-dzA3h5PT&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This advisory is part of the November 2023 release of the Cisco ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74985&quot;&gt;Cisco Event Response: November 2023 Semiannual Cisco ASA, FMC, and FTD Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20247</description>
+    </item>
+    <item>
+      <title>Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Multiple%20Vulnerabilities%20in%20Cisco%20IOS%20XE%20Software%20Web%20UI%20Feature&amp;vs_k=1</link>
+      <description>&lt;p&gt;Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker.&lt;/p&gt;
+&lt;p&gt;Fix information can be found in the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#fs&quot;&gt;Fixed Software&lt;/a&gt; section of this advisory.&lt;/p&gt;
+&lt;p&gt;Our investigation has determined that the actors exploited two previously unknown issues.&lt;/p&gt;
+&lt;p&gt;The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access.&lt;/p&gt;
+&lt;p&gt;The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to &lt;em&gt;root&lt;/em&gt; and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CVE-2023-20198&lt;/strong&gt; has been assigned a CVSS Score of 10.0.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CVE-2023-20273&lt;/strong&gt; has been assigned a CVSS Score of 7.2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both of these CVEs are being tracked by &lt;a href=&quot;https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh87343&quot;&gt;CSCwh87343&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For steps to close the attack vector for these vulnerabilities, see the &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#REC&quot; rel=&quot;nofollow&quot;&gt;Recommendations&lt;/a&gt; section of this advisory.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z&quot; rel=&quot;nofollow&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Critical
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20198,CVE-2023-20273</description>
+    </item>
+    <item>
+      <title>Cisco Catalyst SD-WAN Manager Vulnerabilities</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-vman-sc-LRLfu2z?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Vulnerabilities&amp;vs_k=1</link>
+      <description>&lt;p&gt;Multiple vulnerabilities in Cisco Catalyst SD-WAN Manager, formerly Cisco SD-WAN vManage, could allow an attacker to access an affected instance or cause a denial of service (DoS) condition on an affected system.&lt;/p&gt;
+&lt;p&gt;For more information about these vulnerabilities, see the&amp;nbsp;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml#details&quot;&gt;Details&lt;/a&gt; section of this advisory.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-vman-sc-LRLfu2z&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-vman-sc-LRLfu2z&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Critical
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20034,CVE-2023-20252,CVE-2023-20253,CVE-2023-20254,CVE-2023-20262</description>
+    </item>
+    <item>
+      <title>Cisco Network Services Orchestrator CLI Secure Shell Server Privilege Escalation Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nso-priv-esc-XXqRtTfT?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Network%20Services%20Orchestrator%20CLI%20Secure%20Shell%20Server%20Privilege%20Escalation%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in Cisco Network Services Orchestrator (NSO) could allow an authenticated, local attacker to execute arbitrary commands at the level of the account under which Cisco NSO is running, which is &lt;em&gt;root&lt;/em&gt; by default. To exploit this vulnerability, an attacker must have a valid account on an affected device.&lt;/p&gt;
+&lt;p&gt;The vulnerability exists because the affected software incorrectly runs the SFTP user service at the privilege level of the account that was running when the NSO built-in Secure Shell (SSH) server for CLI was enabled. If the NSO built-in SSH server was not enabled, the device is not affected by this vulnerability. An attacker with low-level privileges could exploit this vulnerability by authenticating to an affected device and issuing a series of commands at the SFTP interface. A successful exploit could allow the attacker to elevate privileges to the level of the account under which Cisco NSO is running, which is &lt;em&gt;root &lt;/em&gt;by default.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: &lt;/strong&gt;Any user who can authenticate to the built-in SSH server may exploit this vulnerability. By default, all Cisco NSO users have this access if the server is enabled.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nso-priv-esc-XXqRtTfT&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nso-priv-esc-XXqRtTfT&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2021-1572</description>
+    </item>
+    <item>
+      <title>Cisco IOS XE Software Web UI Command Injection Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webcmdinjsh-UFJxTgZD?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Software%20Web%20UI%20Command%20Injection%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the web UI of Cisco IOS XE Software could allow an authenticated, remote attacker to inject arbitrary commands that can be executed as the &lt;em&gt;root&lt;/em&gt; user.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending a crafted request to the web UI of an affected device with arbitrary commands injected into a portion of the request. A successful exploit could allow the attacker to execute arbitrary commands as the &lt;em&gt;root&lt;/em&gt; user.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webcmdinjsh-UFJxTgZD&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webcmdinjsh-UFJxTgZD&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2021-1435</description>
+    </item>
+    <item>
+      <title>Cisco Catalyst SD-WAN Manager Local File Inclusion Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-lfi-OWLbKUGe?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Local%20File%20Inclusion%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager could allow an authenticated, remote attacker to retrieve arbitrary files from an affected system.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper validation of parameters that are sent to the web UI. An attacker could exploit this vulnerability by logging in to Cisco Catalyst SD-WAN Manager and issuing crafted requests using the web UI. A successful exploit could allow the attacker to obtain arbitrary files from the underlying Linux file system of an affected system. To exploit this vulnerability, the attacker must be an authenticated user.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-lfi-OWLbKUGe&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-lfi-OWLbKUGe&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20261</description>
+    </item>
+    <item>
+      <title>Cisco IOS and IOS XE Software Command Authorization Bypass Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-aaascp-Tyj4fEJm?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20and%20IOS%20XE%20Software%20Command%20Authorization%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the Authentication, Authorization, and Accounting (AAA) feature of Cisco IOS Software and Cisco IOS XE Software could allow an authenticated, remote attacker to bypass command authorization and copy files to or from the file system of an affected device using the Secure Copy Protocol (SCP).&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to incorrect processing of SCP commands in AAA command authorization checks. An attacker with valid credentials and level 15 privileges could exploit this vulnerability by using SCP to connect to an affected device from an external machine. A successful exploit could allow the attacker to obtain or change the configuration of the affected device and put files on or retrieve files from the affected device.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-aaascp-Tyj4fEJm&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-aaascp-Tyj4fEJm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This advisory is part of the September 2023 release of the Cisco IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74916&quot;&gt;Cisco Event Response: September 2023 Semiannual Cisco IOS and IOS XE Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20186</description>
+    </item>
+    <item>
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Remote Access VPN Unauthorized Access Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20Remote%20Access%20VPN%20Unauthorized%20Access%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the remote access VPN feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct a brute force attack in an attempt to identify valid username and password combinations or an authenticated, remote attacker to establish a clientless SSL VPN session with an unauthorized user.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper separation of authentication, authorization, and accounting (AAA) between the remote access VPN feature and the HTTPS management and site-to-site VPN features. An attacker could exploit this vulnerability by specifying a default connection profile/tunnel group while conducting a brute force attack or while establishing a clientless SSL VPN session using valid credentials. A successful exploit could allow the attacker to achieve one or both of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identify valid credentials that could then be used to establish an unauthorized remote access VPN session.&lt;/li&gt;
+&lt;li&gt;Establish a clientless SSL VPN session (only when running Cisco ASA Software Release 9.16 or earlier).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Establishing a client-based remote access VPN tunnel is not possible as these default connection profiles/tunnel groups do not and cannot have an IP address pool configured.&lt;/li&gt;
+&lt;li&gt;This vulnerability does not allow an attacker to bypass authentication. To successfully establish a remote access VPN session, valid credentials are required, including a valid second factor if multi-factor authentication (MFA) is configured.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20269</description>
+    </item>
+    <item>
+      <title>ConfD CLI Secure Shell Server Privilege Escalation Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-confd-priv-esc-LsGtCRx4?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=ConfD%20CLI%20Secure%20Shell%20Server%20Privilege%20Escalation%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in ConfD could allow an authenticated, local attacker to execute arbitrary commands at the level of the account under which ConfD is running, which is commonly &lt;em&gt;root&lt;/em&gt;. To exploit this vulnerability, an attacker must have a valid account on the affected device.&lt;/p&gt;
+&lt;p&gt;The vulnerability exists because the affected software incorrectly runs the SFTP user service at the privilege level of the account that was running when the ConfD built-in Secure Shell (SSH) server for CLI was enabled. If the ConfD built-in SSH server was not enabled, the device is not affected by this vulnerability. An attacker with low-level privileges could exploit this vulnerability by authenticating to an affected device and issuing a series of commands at the SFTP interface. A successful exploit could allow the attacker to elevate privileges to the level of the account under which ConfD is running, which is commonly &lt;em&gt;root&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Any user who can authenticate to the built-in SSH server may exploit this vulnerability. By default, all ConfD users have this access if the server is enabled.&lt;/p&gt;
+
+&lt;p&gt;Software updates that address this vulnerability have been released. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-confd-priv-esc-LsGtCRx4&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-confd-priv-esc-LsGtCRx4&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2021-1572</description>
+    </item>
+    <item>
+      <title>Cisco Emergency Responder Static Credentials Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cer-priv-esc-B9t3hqk9?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Emergency%20Responder%20Static%20Credentials%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in Cisco Emergency Responder could allow an unauthenticated, remote attacker to log in to an affected device using the &lt;em&gt;root &lt;/em&gt;account, which has default, static credentials that cannot be changed or deleted.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to the presence of static user credentials for the &lt;em&gt;root &lt;/em&gt;account that are typically reserved for use during development. An attacker could exploit this vulnerability by using the account to log in to an affected system. A successful exploit could allow the attacker to log in to the affected system and execute arbitrary commands as the &lt;em&gt;root &lt;/em&gt;user.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cer-priv-esc-B9t3hqk9&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cer-priv-esc-B9t3hqk9&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Critical
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20101</description>
+    </item>
+    <item>
+      <title>Cisco IOx Application Hosting Environment Privilege Escalation Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rdocker-uATbukKn?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOx%20Application%20Hosting%20Environment%20Privilege%20Escalation%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the on-device application development workflow feature for the Cisco IOx application hosting infrastructure in Cisco IOS XE Software could allow an authenticated, remote attacker to access the underlying operating system as the &lt;em&gt;root&lt;/em&gt; user.&lt;/p&gt;
+&lt;p&gt;This vulnerability exists because Docker containers with the privileged runtime option are not blocked when they are in application development mode. An attacker could exploit this vulnerability by using the Docker CLI to access an affected device. The application development workflow is meant to be used only on development systems and not in production systems.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rdocker-uATbukKn&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rdocker-uATbukKn&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20235</description>
+    </item>
+    <item>
+      <title>Multiple Cisco Unified Communications Products Unauthenticated API High CPU Utilization Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-apidos-PGsDcdNF?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Multiple%20Cisco%20Unified%20Communications%20Products%20Unauthenticated%20API%20High%20CPU%20Utilization%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in an API endpoint of multiple Cisco Unified Communications Products could allow an unauthenticated, remote attacker to cause high CPU utilization, which could impact access to the web-based management interface and cause delays with call processing. This API is not used for device management and is unlikely to be used in normal operations of the device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper API authentication and incomplete validation of the API request. An attacker could exploit this vulnerability by sending a crafted HTTP request to a specific API on the device. A successful exploit could allow the attacker to cause a denial of service (DoS) condition due to high CPU utilization, which could negatively impact user traffic and management access. When the attack stops, the device will recover without manual intervention.&lt;/p&gt;
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;nbsp; &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-apidos-PGsDcdNF&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-apidos-PGsDcdNF&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20259</description>
+    </item>
+    <item>
+      <title>Reports about Cyber Actors Hiding in Router Firmware</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csa-cyber-report-sept-2023?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Reports%20about%20Cyber%20Actors%20Hiding%20in%20Router%20Firmware&amp;vs_k=1</link>
+      <description>&lt;p&gt;On September 27, 2023, the U.S. National Security Agency (NSA), the U.S. Federal Bureau of Investigation (FBI), the U.S. Cybersecurity and Infrastructure Security Agency (CISA), the Japan National Police Agency (NPA), and the Japan National Center of Incident Readiness and Strategy for Cybersecurity (NISC) released a joint cybersecurity advisory (CSA) detailing activities of the cyber actors known as BlackTech.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For a description of this report, see &lt;a href=&quot;https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-270a&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;People's Republic of China-Linked Cyber Actors Hide in Router Firmware&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cisco has reviewed the report. Cisco would like to highlight the following key facts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;p1&quot;&gt;The most prevalent initial access vector in these attacks involves stolen or weak administrative credentials. As outlined in the report, certain configuration changes, such as disabling logging and downloading firmware, require administrative credentials.&lt;/li&gt;
+&lt;li class=&quot;p1&quot;&gt;There is no indication that any Cisco vulnerabilities were exploited. Attackers used compromised credentials to perform administrative-level configuration and software changes.&lt;/li&gt;
+&lt;li class=&quot;p1&quot;&gt;Modern Cisco devices include secure boot capabilities, which do not allow the loading and executing of modified software images. For more information on secure boot, see the &lt;a href=&quot;https://www.cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/trustworthy-technologies-datasheet.pdf&quot;&gt;Cisco Trustworthy Technologies Data Sheet&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;The stolen code-signing certificates mentioned in the report are not from Cisco. Cisco does not have any knowledge of code-signing certificates being stolen to perform any attack against Cisco infrastructure devices.&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These key points align with the Cisco consistent stance and messaging that advises customers to follow best practices as described in the Cisco blog post: &lt;a href=&quot;https://community.cisco.com/t5/security-blogs/attackers-continue-to-target-legacy-devices/ba-p/4169954&quot;&gt;Attackers Continue to Target Legacy Devices&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Modern network infrastructure devices now contain numerous security features and capabilities that mitigate the aforementioned attacks. The Cisco Secure Development Lifecycle (SDL) applies industry-leading practices and technology to build trustworthy solutions that have fewer field-discovered product security incidents. As part of our ongoing commitment to network reliability, Cisco has recently launched an effort focused on network resiliency. For more information on this effort, see the &lt;a href=&quot;https://www.cisco.com/c/en/us/about/trust-center/network-resilience.html&quot;&gt;Cisco Network Resilience&lt;/a&gt; portal.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csa-cyber-report-sept-2023&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csa-cyber-report-sept-2023&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Informational</description>
+    </item>
+    <item>
+      <title>Cisco Access Point Software Uncontrolled Resource Consumption Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ap-dos-capwap-DDMCZS4m?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Access%20Point%20Software%20Uncontrolled%20Resource%20Consumption%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the packet processing functionality of Cisco access point (AP) software could allow an unauthenticated, adjacent attacker to exhaust resources on an affected device.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to insufficient management of resources when handling certain types of traffic. An attacker could exploit this vulnerability by sending a series of specific wireless packets to an affected device. A successful exploit could allow the attacker to consume resources on an affected device. A sustained attack could lead to the disruption of the Control and Provisioning of Wireless Access Points (CAPWAP) tunnel and intermittent loss of wireless client traffic.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ap-dos-capwap-DDMCZS4m&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ap-dos-capwap-DDMCZS4m&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20268</description>
+    </item>
+    <item>
+      <title>Cisco Wireless LAN Controller AireOS Software Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cbw-dos-YSmbUqX3?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Wireless%20LAN%20Controller%20AireOS%20Software%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the memory buffer of Cisco Wireless LAN Controller (WLC) AireOS Software could allow an unauthenticated, adjacent attacker to cause memory leaks that could eventually lead to a device reboot.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to memory leaks caused by multiple clients connecting under specific conditions. An attacker could exploit this vulnerability by causing multiple wireless clients to attempt to connect to an access point (AP) on an affected device. A successful exploit could allow the attacker to cause the affected device to reboot after a significant amount of time, resulting in a denial of service (DoS) condition.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There is a&amp;nbsp;workaround that addresses this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link: &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cbw-dos-YSmbUqX3&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cbw-dos-YSmbUqX3&lt;/a&gt;&lt;/p&gt;
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20251</description>
+    </item>
+    <item>
+      <title>Cisco IOS XE Software for Catalyst 3650 and Catalyst 3850 Series Switches Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cat3k-dos-ZZA4Gb3r?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Software%20for%20Catalyst%203650%20and%20Catalyst%203850%20Series%20Switches%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in Cisco IOS XE Software for Cisco Catalyst 3650 and Catalyst 3850 Series Switches could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper resource management when processing traffic that is received on the management interface. An attacker could exploit this vulnerability by sending a high rate of traffic to the management interface. A successful exploit could allow the attacker to cause the device to reload, resulting in a DoS condition.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cat3k-dos-ZZA4Gb3r&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cat3k-dos-ZZA4Gb3r&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the September 2023 release of the Cisco IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74916&quot;&gt;Cisco Event Response: September 2023 Semiannual Cisco IOS and IOS XE Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20033</description>
+    </item>
+    <item>
+      <title>Cisco IOS XE Software Application Quality of Experience and Unified Threat Defense Denial of Service Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appqoe-utd-dos-p8O57p5y?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Software%20Application%20Quality%20of%20Experience%20and%20Unified%20Threat%20Defense%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in Application Quality of Experience (AppQoE) and Unified Threat Defense (UTD) on Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to the mishandling of a crafted packet stream through the AppQoE or UTD application. An attacker could exploit this vulnerability by sending a crafted packet stream through an affected device. A successful exploit could allow the attacker to cause the device to reload, resulting in a DoS condition.&lt;/p&gt;
+
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appqoe-utd-dos-p8O57p5y&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appqoe-utd-dos-p8O57p5y&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This advisory is part of the September 2023 release of the Cisco IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74916&quot;&gt;Cisco Event Response: September 2023 Semiannual Cisco IOS and IOS XE Software Security Advisory Bundled Publication&lt;/a&gt;.&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20226</description>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2023</title>
+      <link>https://www.oracle.com/security-alerts/cpuoct2023.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2023</title>
+      <link>https://www.oracle.com/security-alerts/cpujul2023.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2023</title>
+      <link>https://www.oracle.com/security-alerts/cpuapr2023.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2023</title>
+      <link>https://www.oracle.com/security-alerts/cpujan2023.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2022</title>
+      <link>https://www.oracle.com/security-alerts/cpuoct2022.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2022</title>
+      <link>https://www.oracle.com/security-alerts/cpujul2022.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2022-21500 - 19 May 2022</title>
+      <link>https://www.oracle.com/security-alerts/alert-cve-2022-21500.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2022</title>
+      <link>https://www.oracle.com/security-alerts/cpuapr2022.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2022</title>
+      <link>https://www.oracle.com/security-alerts/cpujan2022.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2021-44228 - 10 December 2021</title>
+      <link>https://www.oracle.com/security-alerts/alert-cve-2021-44228.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2021</title>
+      <link>https://www.oracle.com/security-alerts/cpuoct2021.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2021</title>
+      <link>https://www.oracle.com/security-alerts/cpujul2021.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2021</title>
+      <link>https://www.oracle.com/security-alerts/cpuapr2021.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2021</title>
+      <link>https://www.oracle.com/security-alerts/cpujan2021.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2020-14750 - 01 November 2020</title>
+      <link>https://www.oracle.com/security-alerts/alert-cve-2020-14750.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2020</title>
+      <link>https://www.oracle.com/security-alerts/cpuoct2020.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2020</title>
+      <link>https://www.oracle.com/security-alerts/cpujul2020.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2020</title>
+      <link>https://www.oracle.com/security-alerts/cpuapr2020.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2020</title>
+      <link>https://www.oracle.com/security-alerts/cpujan2020.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2019</title>
+      <link>https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2019</title>
+      <link>https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2019-2729 - 18 Jun 2019</title>
+      <link>https://www.oracle.com/technetwork/security-advisory/alert-cve-2019-2729-5570780.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2019-2725 - 26 Apr 2019</title>
+      <link>https://www.oracle.com/technetwork/security-advisory/alert-cve-2019-2725-5466295.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2019</title>
+      <link>https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2019</title>
+      <link>https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2018</title>
+      <link>https://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2018-11776 - 31 August 2018</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-11776-5072787.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2018-3110 - 10 August 2018</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-3110-5032149.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2018</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpujul2018-4258247.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2018</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2018</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2017-10269 - 13 November 2017</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2017-10151 - 27 October 2017</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10151-4016513.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2017</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2017-9805 - 22 September 2017</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-9805-3889403.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2017</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2017-3629</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-3629-3757403.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2017</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpuapr2017-3236618.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2017</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpujan2017-2881727.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2016</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpuoct2016-2881722.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2016</title>
+      <link>http://www.oracle.com/technetwork/security-advisory/cpujul2016-2881720.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2016</title>
+      <link>http://www-content.oracle.com/technetwork/security-advisory/cpuapr2016v3-2985753.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2016-0636 - 23 Mar 2016</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2016-0636-2949497.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2016-0603 - 5 February 2016</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2016-0603-2874360.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2016</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2015-4852 - 10 November 2015</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2015-4852-2763333.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2015</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2015-2367953.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2015</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2015-3456 - 15 May 2015</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2015-3456-2542656.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2015</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2015-2365600.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2015</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2015-1972971.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2014</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2014-7169 - 26 September 2014</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2014-7169-2303276.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2014</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujul2014-1972956.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2014-0160 - 18 April 2014</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2014-0160-2190703.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2014</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2014</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - July 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE Critical Patch Update Advisory - June 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE Critical Patch Update Advisory - April 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - April 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2013-1493 - 04 Mar 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2013-1493-1915081.html</link>
+    </item>
+    <item>
+      <title>Updated Release of the Oracle Java SE Critical Patch Update - February 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpufeb2013update-1905892.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE Critical Patch Update Advisory - February 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - January 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2013-0422 - 13 Jan 2013</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2013-0422-1896849.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update Advisory - October 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2012-1515893.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE Critical Patch Update Advisory - October 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2012-4681 - 30 Aug 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2012-4681-1835715.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2012-3132 - 10 Aug 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2012-3132-1721017.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) Advisory - July 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujul2012-392727.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE Critical Patch Update Advisory - June 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2012-1675</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2012-1675-1608180.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) Advisory - April 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2012-366314.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE Critical Patch Update Advisory - February 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2011-5035</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2011-5035-1506603.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) Advisory - January 2012</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) Advisory - October 2011</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2011-3192</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alerts-086861.html#SecurityAlerts</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) Advisory - July 2011</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE Critical Patch Update Advisory - June 2011</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) - April 2011</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html</link>
+    </item>
+    <item>
+      <title>Oracle Java SE and Java for Business Critical Patch Update Advisory - February 2011</title>
+      <link>http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) - January 2011</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) - October 2010</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) - July 2010</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujul2010-155308.html</link>
+    </item>
+    <item>
+      <title>Oracle Critical Patch Update (CPU) - April 2010</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html</link>
+    </item>
+    <item>
+      <title>Oracle Security Alert for CVE-2010-0073 - February 2010</title>
+      <link>http://www.oracle.com/technetwork/topics/security/alert-cve-2010-0073-099291.html</link>
+      <description>Oracle Security Alert for CVE-2010-0073</description>
+    </item>
+    <item>
+      <title>Critical Patch Update - January 2010</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - October 2009</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2009-096303.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - July 2009</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujul2009-091332.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - April 2009</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2009-099563.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - January 2009</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2009-097901.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - October 2008</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2008-100299.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - July 2008</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujul2008-090335.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - April 2008</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2008-082075.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - January 2008</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2008-086860.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - October 2007</title>
+      <link>http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpuoct2007.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - July 2007</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2007-092913.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - April 2007</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2007-090632.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - January 2007</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2007-101493.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - October 2006</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2006-095368.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - April 2006</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuapr2006-090826.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - January 2006</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujan2006-082403.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - October 2005</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpuoct2005-090497.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - July 2005</title>
+      <link>http://www.oracle.com/technetwork/topics/security/cpujul2005-090619.html</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - April 2005</title>
+      <link>http://www.oracle.com/technology/deploy/security/pdf/cpuapr2005.pdf</link>
+    </item>
+    <item>
+      <title>Critical Patch Update - January 2005</title>
+      <link>http://www.oracle.com/technology/deploy/security/pdf/cpu-jan-2005_advisory.pdf</link>
+    </item>
+    <item>
+      <title>CC-4413 - Foxit Releases Security Updates</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4413</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Security updates address multiple vulnerabilities affecting Foxit Reader and Foxit PDF Editor that could allow attackers to perform remote code execution on vulnerable systems&lt;/p&gt;&lt;p&gt; Security updates address multiple vulnerabilities affecting Foxit Reader and Foxit PDF Editor that could allow attackers to perform remote code execution on vulnerable systems&lt;/p&gt;&lt;p&gt; Updated: 01 Dec 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4414 - Google Releases Security Update Addressing Multiple Vulnerabilities in Google Chrome</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4414</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Security update addresses six high severity vulnerabilities in Google Chrome, including an actively exploited zero-day vulnerability&lt;/p&gt;&lt;p&gt; Security update addresses six high severity vulnerabilities in Google Chrome, including an actively exploited zero-day vulnerability&lt;/p&gt;&lt;p&gt; Updated: 29 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4412 - ownCloud releases Security Advisories</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4412</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;The security advisories address three critical vulnerabilities with one being reported as exploited in the wild&lt;/p&gt;&lt;p&gt; The security advisories address three critical vulnerabilities with one being reported as exploited in the wild&lt;/p&gt;&lt;p&gt; Updated: 28 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-1899 - WordPress CAPTCHA Plugin Backdoor</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2018/cc-1899</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;A backdoor has been discovered in the WordPress plugin &quot;Captcha free plugin&quot;, by BestWebSoft. BestWebSoft has recently sold the plugin to an undisclosed buyer, who then updated the plugin with a backdoor. This backdoor granted the plugin's new author administrative privileges to the website without any authentication.&lt;/p&gt;&lt;p&gt; A backdoor has been discovered in the WordPress plugin &quot;Captcha free plugin&quot;, by BestWebSoft.&lt;/p&gt;&lt;p&gt; Updated: 23 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4411 - Critical Vulnerability in CrushFTP</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4411</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;The critical vulnerability assigned CVE-2023-43177 could allow remote code execution on affected devices&lt;/p&gt;&lt;p&gt; The critical vulnerability assigned CVE-2023-43177 could allow remote code execution on affected devices&lt;/p&gt;&lt;p&gt; Updated: 20 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4370 - Exploitation of CVE-2023-38831 in WinRAR</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4370</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;RARLabs WinRAR file extension spoofing exploit seen in the wild&lt;/p&gt;&lt;p&gt; RARLabs WinRAR file extension spoofing exploit seen in the wild&lt;/p&gt;&lt;p&gt; Updated: 20 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4407 - Fortinet Releases Multiple Security Advisories</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4407</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;The security advisories address two critical, two high, one medium and two low vulnerabilities impacting FortiClient, FortiGate and FortiSIEM&lt;/p&gt;&lt;p&gt; The security advisories address two critical, two high, one medium and two low vulnerabilities impacting FortiClient, FortiGate and FortiSIEM&lt;/p&gt;&lt;p&gt; Updated: 16 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4409 - VMware Releases Critical Security Update for VMware Cloud Director Appliance</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4409</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Security update addresses an authentication bypass vulnerability in the&amp;nbsp;VMware Cloud Director Appliance platform&lt;/p&gt;&lt;p&gt; Security update addresses an authentication bypass vulnerability in the VMware Cloud Director Appliance platform&lt;/p&gt;&lt;p&gt; Updated: 15 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4408 - Microsoft Releases November 2023 Security Updates</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4408</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Scheduled updates for Microsoft products, including security updates for five zero-day vulnerabilities with three being exploited&lt;/p&gt;&lt;p&gt; Scheduled updates for Microsoft products, including security updates for five zero-day vulnerabilities with three being exploited&lt;/p&gt;&lt;p&gt; Updated: 15 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4368 - Multiple Vulnerabilities in Juniper Networks Junos OS</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4368</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Critical out-of-band security updates highlight five vulnerabilities that can be chained to achieve pre-authentication remote code execution&lt;/p&gt;&lt;p&gt; Critical out-of-band security updates highlight five vulnerabilities that can be chained to achieve pre-authentication remote code execution&lt;/p&gt;&lt;p&gt; Updated: 14 Nov 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-385</link>
+      <description>CVE-2023-38545: severity HIGH (affects both libcurl and the curl tool)
+A heap-based buffer overflow flaw was found in the SOCKS5 proxy handshake in the Curl package. If Curl is unable to resolve the address itself, it passes the hostname to the SOCKS5 proxy. However, the maximum length of the hostname that can be passed is 255 bytes. If the hostname is longer, then Curl switches to the local name resolving and passes the resolved address only to the proxy. The local variable that instructs Curl to &quot;let the host resolve the name&quot; could obtain the wrong value during a slow SOCKS5 handshake, resulting in the too-long hostname being copied to the target buffer instead of the resolved address, which was not the intended behavior.
+https://curl.se/docs/CVE-2023-38545.html&quot;
+CVE-2023-38546: severity LOW (affects libcurl only, not the tool)
+A flaw was found in the Curl package. This flaw allows an attacker to insert cookies into a running program using libcurl if the specific series of conditions are met.
+https://curl.se/docs/CVE-2023-38546.html</description>
+    </item>
+    <item>
+      <title>FortiADC - Privilege escalation vulnerability using the automation cli-script feature</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-22-292</link>
+      <description>An improper access control vulnerability [CWE-284] in FortiADC automation feature may allow an authenticated low-privileged attacker to escalate their privileges to super_admin via a specific crafted configuration of fabric automation CLI script.</description>
+    </item>
+    <item>
+      <title>FortiADC &amp; FortiDDoS-F - Buffer overflows in CLI commands</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-064</link>
+      <description>Multiple buffer copy without checking size of input ('classic buffer overflow') vulnerabilities [CWE-120] in FortiADC &amp; FortiDDoS-F may allow a privileged attacker to execute arbitrary code or commands via specifically crafted CLI requests.</description>
+    </item>
+    <item>
+      <title>FortiADC &amp; FortiDDoS-F - CORS: arbitrary origin trusted</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-22-518</link>
+      <description>A permissive cross-domain policy with untrusted domains (CWE-942) vulnerability in the API of FortiADC / FortiDDoS-F may allow an unauthorized attacker to carry out privileged actions and retrieve sensitive information via crafted web requests.</description>
+    </item>
+    <item>
+      <title>FortiClient (Windows) - Arbitrary file deletion from unprivileged users</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-22-299</link>
+      <description>An incorrect authorization [CWE-863] vulnerability in FortiClient (Windows) may allow a local low privileged attacker to perform arbitrary file deletion in the device filesystem.</description>
+    </item>
+    <item>
+      <title>FortiClient (Windows) - DLL Hijacking via openssl.cnf</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-274</link>
+      <description>An untrusted search path vulnerability [CWE-426] in FortiClient Windows OpenSSL component may allow an attacker to perform a DLL Hijack attack via a malicious OpenSSL engine library in the search path.</description>
+    </item>
+    <item>
+      <title>FortiClient for Windows - Hardcoded credentials in vcm2.exe</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-108</link>
+      <description>A use of hard-coded credentials vulnerability [CWE-798] in FortiClient for Windows may allow an attacker to bypass system protections via the use of static credentials.</description>
+    </item>
+    <item>
+      <title>FortiEDRCollector (Windows) - Protection may be disabled by local attacker</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-306</link>
+      <description>An improper access control vulnerabilty [CWE-284] in FortiEDRCollectorWindows may allow a local attacker to prevent the collector service to start in the next system reboot by tampering with some registry keys of the service.</description>
+    </item>
+    <item>
+      <title>FortiMail - Login mechanism without rate limitation</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-287</link>
+      <description>An improper restriction of excessive authentication attempts vulnerability [CWE-307] in FortiMail webmail may allow an unauthenticated attacker to  perform a brute force attack on the affected endpoints via repeated login attempts.</description>
+    </item>
+    <item>
+      <title>FortiMail - User can see and modify address book folders title of other users</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-203</link>
+      <description>An improper authorization vulnerability [CWE-285] in FortiMail webmail may allow an authenticated attacker to see and modify the title of address book folders of other users via crafted HTTP or HTTPs requests.</description>
+    </item>
+    <item>
+      <title>FortiManager &amp; FortiAnalyzer - Use of hardcoded credentials in fmgsvrd</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-177</link>
+      <description>A use of hard-coded credentials [CWE-798] in FortiManager and FortiAnalyzer may allow an attacker to access Fortinet dummy testing data via the use of static credentials. Those credentials have been revoked.</description>
+    </item>
+    <item>
+      <title>FortiOS &amp; FortiProxy - DOS in headers management</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-151</link>
+      <description>A null pointer dereference [CWE-476] in FortiOS and FortiProxy SSL VPN may allow an authenticated attacker to perform a DoS attack on the device via specifically crafted HTTP requests.</description>
+    </item>
+    <item>
+      <title>FortiOS &amp; FortiProxy VM - Bypass of root file system integrity checks at boot time on VM</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-22-396</link>
+      <description>An improper validation of integrity check value vulnerability [CWE-354] in FortiOS and FortiProxy VMs may allow a local attacker with admin privileges to boot a malicious image on the device and bypass the filesytem integrity check in place.</description>
+    </item>
+    <item>
+      <title>FortiSIEM - Encrypted password stored in logs</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-392</link>
+      <description>An insertion of sensitive information into log file vulnerability [CWE-532] in FortiSIEM may allow an authenticated user to view an encrypted ElasticSearch password via debug log files generated when FortiSIEM is configured with ElasticSearch Event Storage.</description>
+    </item>
+    <item>
+      <title>FortiSIEM - OS command injection in Report Server</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-135</link>
+      <description>An improper neutralization of special elements used in an OS Command vulnerability [CWE-78] in FortiSIEM report server may allow a remote unauthenticated attacker to execute unauthorized commands via crafted API requests.
+This vulnerability was internally discovered as a variant of FG-IR-23-130.</description>
+    </item>
+    <item>
+      <title>FortiSIEM - Windows agent password is visible in the logs</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-290</link>
+      <description>An exposure of sensitive information to an unauthorized actor [CWE-200] in FortiSIEM may allow an attacker with access to windows agent logs to obtain the windows agent password via searching through the logs.</description>
+    </item>
+    <item>
+      <title>FortiWAN - Guessable static JSON web token secret</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-061</link>
+      <description>*PRODUCT OUT OF SUPPORT*
+An improper authentication vulnerability [CWE-287] in FortWAN may allow an authenticated attacker to escalate his privileges via HTTP or HTTPs requests with crafted JWT token values.</description>
+    </item>
+    <item>
+      <title>FortiWAN - Path traversal vulnerability</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-265</link>
+      <description>*PRODUCT OUT OF SUPPORT*
+A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability [CWE-22] in FortiWAN may allow an authenticated attacker to read and delete arbitrary file of the system via crafted HTTP or HTTPs requests.</description>
+    </item>
+    <item>
+      <title>FortiWLM - Unauthenticated arbitrary file read vulnerability</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-143</link>
+      <description>A relative path traversal vulnerability [CWE-23] in FortiWLM may allow a remote unauthenticated attacker to read arbitrary files via crafted HTTP requests.</description>
+    </item>
+    <item>
+      <title>FortiWLM - Unauthenticated SQL Injection Vulnerability</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-142</link>
+      <description>An improper neutralization of special elements used in an sql command [CWE-89] in FortiWLM may allow a remote unauthenticated attacker to execute unauthorized sql queries via a crafted http request.</description>
+    </item>
+    <item>
+      <title>TunnelCrack VPN vulnerabilities</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-383</link>
+      <description>Fortinet is aware of a research article named TunnelCrack, published at Usenix [1], which describe the LocalNet and ServerIP attacks.
+These attacks aim to leak VPN client traffic outside of the protected VPN tunnel when clients connect via untrusted networks, such as rogue Wi-Fi access points. 
+The LocalNet attack allows an attacker to force the usage of local network access features of the VPN to access unencrypted traffic.
+The ServerIP attack allows an attacker to intercept traffic sent to a spoofed VPN gateway via DNS spoofing attacks.
+These attacks do not enable the attacker to decrypt the encrypted traffic but rather will try to redirect the traffic through attacker controlled channels before the traffic is encrypted by the VPN.</description>
+    </item>
+    <item>
+      <title>FortiSandbox -  Reflected Cross Site Scripting (XSS) on the &quot;file ondemand&quot; rendering endpoint</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-273</link>
+      <description>An improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox may allow an authenticated attacker to perform a cross-site scripting attack via crafted HTTP requests.</description>
+    </item>
+    <item>
+      <title>FortiSandbox - Arbitrary file delete</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-280</link>
+      <description>An improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability [CWE-22] in FortiSandbox may allow a low privileged attacker to delete arbitrary files via crafted http requests.</description>
+    </item>
+    <item>
+      <title>FortiSandbox - Reflected Cross Site Scripting (XSS) on download progress endpoint</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-215</link>
+      <description>An improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox may allow an authenticated attacker to perform a cross-site scripting attack via crafted HTTP requests.</description>
+    </item>
+    <item>
+      <title>FortiSandbox - XSS on delete endpoint</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-311</link>
+      <description>Multiple improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox may allow an authenticated attacker to perform a cross-site scripting attack via crafted HTTP requests.</description>
+    </item>
+    <item>
+      <title>FortiSIEM - multiple path traversal vulnerabilities</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-085</link>
+      <description>A relative path traversal vulnerability [CWE-23] in FortiSIEM file upload components may allow an authenticated, low privileged user of the FortiSIEM GUI to escalate their privilege and replace arbitrary files on the underlying filesystem via specifically crafted HTTP requests.</description>
+    </item>
+    <item>
+      <title>Downfall and Zenbleed vulnerabilities</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-277</link>
+      <description>Two side channel hardware vulnerabilities named Downfall (CVE-2022-40982) and Zenbleed (CVE-2023-20593) impact Intel and AMD processors.
+&quot;Downfall attacks target a critical weakness found in billions of modern processors used in personal and cloud computers. This vulnerability, identified as CVE-2022-40982, enables a user to access and steal data from other users who share the same computer. For instance, a malicious app obtained from an app store could use the Downfall attack to steal sensitive information like passwords, encryption keys, and private data such as banking details, personal emails, and messages.&quot; [1]
+&quot;The vulnerability is caused by memory optimization features in Intel processors that unintentionally reveal internal hardware registers to software. &quot; [1]
+&quot;Zenbleed, affecting AMD CPUs, shows that incorrectly implemented speculative execution of the SIMD Zeroupper instruction leaks stale data from physical hardware registers to software registers. Zeroupper instructions should clear the data in the upper-half of SIMD registers (e.g., 256-bit register YMM) which on Zen2 processors is done by just setting a flag that marks the upper half of the register as zero. However, if on the same cycle as a register to register move the Zeroupper instruction is mis-speculated, the zero flag doesnt get rolled back properly, leading to the upper-half of the YMM register to hold stale data rather than the value of zero. Similar to Downfall, leaking stale data from physical hardware registers expose the data from other users who share the same CPU core and its internal physical registers.&quot; [2]
+These vulnerabilities may allow a local attacker to potentially access sensitive information, entire XMM/YMM/ZMM register (Downfall) and upper-half of 256-bit YMM Registers (Zenbleed).
+Zenbleed is impacting all Zen 2 class processors : 
+
+AMD Ryzen 3000 Series Processors
+AMD Ryzen PRO 3000 Series Processors
+AMD Ryzen Threadripper 3000 Series Processors
+AMD Ryzen 4000 Series Processors with Radeon Graphics
+AMD Ryzen PRO 4000 Series Processors
+AMD Ryzen 5000 Series Processors with Radeon Graphics
+AMD Ryzen 7020 Series Processors with Radeon Graphics
+AMD EPYC “Rome” Processors
+
+Downfall is impacting  Intel processor (6th Skylake to (including) the 11th Tiger Lake generation).
+[1] https://downfall.page/
+[2] https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html</description>
+    </item>
+    <item>
+      <title>FortiAnalyzer / FortiAnalyzer-BigData / Fortimanager - Syslog not protected by an extra layer of authentication</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-23-221</link>
+      <description>A insufficient verification of data authenticity vulnerability [CWE-345] in FortiAnalyzer, FortiAnalyzer-BigData and FortiManager with FortiAnalyzer features may allow a remote unauthenticated attacker to send messages to the syslog server of FortiAnalyzer via the knoweldge of an authorized device serial number.</description>
+    </item>
+    <item>
+      <title>FortiAnalyzer &amp; FortiManager - Server side request forgery on fortiview top threats report generation feature.</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-19-039</link>
+      <description>A server-side request forgery vulnerability [CWE-918] in FortiAnalyzer and FortiManager may allow a remote attacker with low privileges to view sensitive data from internal servers or perform a local port scan via a crafted HTTP request.</description>
+    </item>
+    <item>
+      <title>FortiClient - Information disclosure of folders to exclude from scanning</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-22-235</link>
+      <description>An exposure of sensitive information to an unauthorized actor vulnerability [CWE-200] in FortiClient for Windows, Linux and Mac, may allow a local authenticated attacker with no Administrative privileges to retrieve the list of files or folders excluded from malware scanning.</description>
+    </item>
+  </channel>
+</rss>
