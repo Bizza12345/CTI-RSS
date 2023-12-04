@@ -55,6 +55,16 @@
       <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Critical out-of-band security updates highlight five vulnerabilities that can be chained to achieve pre-authentication remote code execution&lt;/p&gt;&lt;p&gt; Critical out-of-band security updates highlight five vulnerabilities that can be chained to achieve pre-authentication remote code execution&lt;/p&gt;&lt;p&gt; Updated: 14 Nov 2023&lt;/p&gt;</description>
     </item>
     <item>
+      <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2023/12/04/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot; title=&quot;Known Exploited Vulnerabilities Catalog&quot;&gt;Known Exploited Vulnerabilities Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2023-42917&quot; title=&quot;CVE-2023-42917&quot;&gt;CVE-2023-42917&lt;/a&gt; Apple Multiple Products WebKit Memory Corruption Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2023-42916&quot; title=&quot;CVE-2023-42916&quot;&gt;CVE-2023-42916&lt;/a&gt; Apple Multiple Products WebKit Out-of-Bounds Read Vulnerability&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. &lt;strong&gt;Note:&lt;/strong&gt; To view other newly added vulnerabilities in the catalog, click on the arrow in the &quot;Date Added to Catalog&quot; column—which will sort by descending dates.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/binding-operational-directive-22-01&quot; title=&quot;Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities&quot;&gt;Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities&lt;/a&gt; established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the&lt;a&gt; &lt;/a&gt;&lt;a href=&quot;https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf&quot; title=&quot;BOD 22-01 Fact Sheet&quot;&gt;BOD 22-01 Fact Sheet&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot; title=&quot;Catalog vulnerabilities&quot;&gt;Catalog vulnerabilities&lt;/a&gt; as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot; title=&quot;specified criteria&quot;&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Apple Releases Security Updates for Multiple Products</title>
       <link>https://www.cisa.gov/news-events/alerts/2023/12/01/apple-releases-security-updates-multiple-products</link>
       <description>&lt;p&gt;Apple has released security updates to address vulnerabilities within Safari, macOS Sonoma, iOS, and iPadOS. A cyber threat actor could exploit one of these vulnerabilities to take control of an affected system. &lt;/p&gt;
@@ -80,8 +90,8 @@
 
 &lt;div class=&quot;c-file&quot;&gt;
     &lt;div class=&quot;c-file__download&quot;&gt;
-    &lt;a class=&quot;c-file__link&quot; href=&quot;https://www.cisa.gov/sites/default/files/2023-12/aa23-335a-irgc-affiliated-cyber-actors-exploit-plcs-in-multiple-sectors.pdf&quot; target=&quot;_blank&quot;&gt;AA23-335A - IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including U.S. Water and Wastewater Systems Facilities&lt;/a&gt;
-    &lt;span class=&quot;c-file__size&quot;&gt;(PDF,       458.21 KB
+    &lt;a class=&quot;c-file__link&quot; href=&quot;https://www.cisa.gov/sites/default/files/2023-12/aa23-335a-irgc-affiliated-cyber-actors-exploit-plcs-in-multiple-sectors_0.pdf&quot; target=&quot;_blank&quot;&gt;AA23-335A IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including U.S. Water and Wastewater Systems Facilities&lt;/a&gt;
+    &lt;span class=&quot;c-file__size&quot;&gt;(PDF,       567.87 KB
   )&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -93,7 +103,7 @@
 
 &lt;div class=&quot;c-file&quot;&gt;
     &lt;div class=&quot;c-file__download&quot;&gt;
-    &lt;a class=&quot;c-file__link&quot; href=&quot;https://www.cisa.gov/sites/default/files/2023-12/AA23-335A.stix_.xml&quot; target=&quot;_blank&quot;&gt;AA23-335A STIX XML&lt;/a&gt;
+    &lt;a class=&quot;c-file__link&quot; href=&quot;https://www.cisa.gov/sites/default/files/2023-12/AA23-335A.stix__0.xml&quot; target=&quot;_blank&quot;&gt;AA23-335A STIX XML&lt;/a&gt;
     &lt;span class=&quot;c-file__size&quot;&gt;(XML,       15.50 KB
   )&lt;/span&gt;
   &lt;/div&gt;
@@ -105,8 +115,8 @@
 
 &lt;div class=&quot;c-file&quot;&gt;
     &lt;div class=&quot;c-file__download&quot;&gt;
-    &lt;a class=&quot;c-file__link&quot; href=&quot;https://www.cisa.gov/sites/default/files/2023-12/AA23-335A%20IRGC-Affiliated%20Cyber%20Actors%20Exploit%20PLCs%20in%20Multiple%20Sectors%20Including%20US%20Water%20and%20Wastewater%20Systems%20Facilities.stix_.json&quot; target=&quot;_blank&quot;&gt;AA23-335A STIX JSON&lt;/a&gt;
-    &lt;span class=&quot;c-file__size&quot;&gt;(JSON,       10.78 KB
+    &lt;a class=&quot;c-file__link&quot; href=&quot;https://www.cisa.gov/sites/default/files/2023-12/AA23-335A-IRGC-Affiliated-Cyber-Actors-Exploit-PLCs-in-Multiple-Sectors-Including-US-Water-and-Wastewater-Systems-Facilities.stix_.json&quot; target=&quot;_blank&quot;&gt;AA23-335A STIX JSON&lt;/a&gt;
+    &lt;span class=&quot;c-file__size&quot;&gt;(JSON,       10.84 KB
   )&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -485,52 +495,9 @@
 &lt;p&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2023-6376&quot;&gt;CVE-2023-6376&lt;/a&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
-&lt;p&gt;Henschen &amp; Associates court document management software cache uses predictable file names.&lt;/p&gt;
+&lt;p&gt;Henschen &amp;amp; Associates court document management software cache uses predictable file names.&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>Delta Electronics DOPSoft</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-23-334-01</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF&quot; target=&quot;_blank&quot;&gt;View CSAF&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;1-executive-summary&quot;&gt;1. EXECUTIVE SUMMARY&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;CVSS v3 7.8&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ATTENTION&lt;/strong&gt;: Exploitable remotely/low attack complexity&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vendor&lt;/strong&gt;: Delta Electronics&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Equipment&lt;/strong&gt;: DOPSoft&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vulnerability&lt;/strong&gt;: Stack-Based Buffer Overflow&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 id=&quot;2-risk-evaluation&quot;&gt;2. RISK EVALUATION&lt;/h2&gt;
-&lt;p&gt;Successful exploitation of this vulnerability could lead to remote code execution.&lt;/p&gt;
-&lt;h2 id=&quot;3-technical-details&quot;&gt;3. TECHNICAL DETAILS&lt;/h2&gt;
-&lt;h3 id=&quot;31-affected-products&quot;&gt;3.1 AFFECTED PRODUCTS&lt;/h3&gt;
-&lt;p&gt;The following versions of Delta Electronics products are affected:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;DOPSoft: All versions&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 id=&quot;32-vulnerability-overview&quot;&gt;3.2 Vulnerability Overview&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;3.2.1 &lt;a href=&quot;https://cwe.mitre.org/data/definitions/121.html&quot; target=&quot;_blank&quot;&gt;STACK-BASED BUFFER OVERFLOW CWE-121&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The affected product is vulnerable to a stack-based buffer overflow, which may allow for arbitrary code execution if an attacker can lead a legitimate user to execute a specially crafted file.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5944&quot; target=&quot;_blank&quot;&gt;CVE-2023-5944&lt;/a&gt; has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been calculated; the CVSS vector string is (&lt;a href=&quot;https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&quot; target=&quot;_blank&quot;&gt;AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;).&lt;/p&gt;
-&lt;h3 id=&quot;33-background&quot;&gt;3.3 BACKGROUND&lt;/h3&gt;
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;CRITICAL INFRASTRUCTURE SECTORS:&lt;/strong&gt; Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;COUNTRIES/AREAS DEPLOYED:&lt;/strong&gt; Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;COMPANY HEADQUARTERS LOCATION:&lt;/strong&gt; Taiwan&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 id=&quot;34-researcher&quot;&gt;3.4 RESEARCHER&lt;/h3&gt;
-&lt;p&gt;Natnael Samson working with Trend Micro Zero Day Initiative reported this vulnerability to CISA.&lt;/p&gt;
-&lt;h2 id=&quot;4-mitigations&quot;&gt;4. MITIGATIONS&lt;/h2&gt;
-&lt;p&gt;Delta Electronics has declared DOPSoft as end-of-life and recommends users to use DIAScreen instead. This vulnerability does not exist on the newest version of DIAScreen.&lt;/p&gt;
-&lt;p&gt;Users may download the DIAScreen v1.3.1 (or newer) on the &lt;a href=&quot;https://diastudio.deltaww.com/home/downloads?sec=download#catalog&quot; target=&quot;_blank&quot;&gt;DIAStudio download center&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for &lt;a href=&quot;https://www.cisa.gov/resources-tools/resources/ics-recommended-practices&quot; target=&quot;_blank&quot;&gt;control systems security recommended practices&lt;/a&gt; on the ICS webpage on &lt;a href=&quot;https://www.cisa.gov/topics/industrial-control-systems&quot; target=&quot;_blank&quot;&gt;cisa.gov/ics&lt;/a&gt;. Several CISA products detailing cyber defense best practices are available for reading and download, including &lt;a href=&quot;https://us-cert.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf&quot; target=&quot;_blank&quot;&gt;Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for &lt;a href=&quot;https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Best_Practices_for_Industrial_Control_Systems.pdf&quot; target=&quot;_blank&quot;&gt;proactive defense of ICS assets&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at &lt;a href=&quot;https://www.cisa.gov/topics/industrial-control-systems&quot; target=&quot;_blank&quot;&gt;cisa.gov/ics&lt;/a&gt; in the technical information paper, &lt;a href=&quot;https://www.cisa.gov/uscert/ics/tips/ICS-TIP-12-146-01B&quot; target=&quot;_blank&quot;&gt;ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/li&gt;
-&lt;li&gt;Refer to &lt;a href=&quot;https://www.cisa.gov/uscert/sites/default/files/publications/emailscams0905.pdf&quot; target=&quot;_blank&quot;&gt;Recognizing and Avoiding Email Scams&lt;/a&gt; for more information on avoiding email scams.&lt;/li&gt;
-&lt;li&gt;Refer to &lt;a href=&quot;https://www.cisa.gov/uscert/ncas/tips/ST04-014&quot; target=&quot;_blank&quot;&gt;Avoiding Social Engineering and Phishing Attacks&lt;/a&gt; for more information on social engineering attacks.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
-&lt;h2 id=&quot;5-update-history&quot;&gt;5. UPDATE HISTORY&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;November 30, 2023: Initial Publication&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
