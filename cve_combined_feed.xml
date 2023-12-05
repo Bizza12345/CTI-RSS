@@ -5,18 +5,18 @@
     <link>https://github.com/Bizza12345/CTI-RSS</link>
     <description>A combined feed of various cybersecurity RSS feeds</description>
     <item>
-      <title>Cisco Secure Web Appliance Content Encoding Filter Bypass Vulnerability</title>
-      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Secure%20Web%20Appliance%20Content%20Encoding%20Filter%20Bypass%20Vulnerability&amp;vs_k=1</link>
-      <description>&lt;p&gt;A vulnerability in the scanning engines of Cisco AsyncOS Software for Cisco Secure Web Appliance could allow an unauthenticated, remote attacker to bypass a configured rule, allowing traffic onto a network that should have been blocked.&lt;/p&gt;
-&lt;p&gt;This vulnerability is due to improper detection of malicious traffic when the traffic is encoded with a specific content format. An attacker could exploit this vulnerability by using an affected device to connect to a malicious server and receiving crafted HTTP responses. A successful exploit could allow the attacker to bypass an explicit block rule and receive traffic that should have been rejected by the device.&lt;/p&gt;
-&lt;p&gt;There are no workarounds that address this vulnerability.&lt;/p&gt;
-&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj&lt;/a&gt;&lt;/p&gt;
+      <title>Cisco Adaptive Security Appliance and Firepower Threat Defense Software VPN Packet Validation Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-Y88QOm77?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20and%20Firepower%20Threat%20Defense%20Software%20VPN%20Packet%20Validation%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the AnyConnect SSL VPN feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an authenticated, remote attacker to send packets with another VPN user's source IP address.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper validation of the packet's inner source IP address after decryption. An attacker could exploit this vulnerability by sending crafted packets through the tunnel. A successful exploit could allow the attacker to send a packet impersonating another VPN user's IP address. It is not possible for the attacker to receive return packets.&lt;/p&gt;
 
+&lt;p&gt;Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-Y88QOm77&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-Y88QOm77&lt;/a&gt;&lt;/p&gt;
 			      
 		          &lt;br /&gt;Security Impact Rating:  Medium
 		    
 		    
-		       &lt;br /&gt;CVE: CVE-2023-20215</description>
+		       &lt;br /&gt;CVE: CVE-2023-20275</description>
     </item>
     <item>
       <title>HTTP/2 Rapid Reset Attack Affecting Cisco Products: October 2023</title>
@@ -36,6 +36,20 @@
 		    
 		    
 		       &lt;br /&gt;CVE: CVE-2023-44487</description>
+    </item>
+    <item>
+      <title>Cisco Secure Web Appliance Content Encoding Filter Bypass Vulnerability</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Secure%20Web%20Appliance%20Content%20Encoding%20Filter%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>&lt;p&gt;A vulnerability in the scanning engines of Cisco AsyncOS Software for Cisco Secure Web Appliance could allow an unauthenticated, remote attacker to bypass a configured rule, allowing traffic onto a network that should have been blocked.&lt;/p&gt;
+&lt;p&gt;This vulnerability is due to improper detection of malicious traffic when the traffic is encoded with a specific content format. An attacker could exploit this vulnerability by using an affected device to connect to a malicious server and receiving crafted HTTP responses. A successful exploit could allow the attacker to bypass an explicit block rule and receive traffic that should have been rejected by the device.&lt;/p&gt;
+&lt;p&gt;There are no workarounds that address this vulnerability.&lt;/p&gt;
+&lt;p&gt;This advisory is available at the following link:&lt;br /&gt;&lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-vXvqwzsj&lt;/a&gt;&lt;/p&gt;
+
+			      
+		          &lt;br /&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br /&gt;CVE: CVE-2023-20215</description>
     </item>
     <item>
       <title>Cisco Firepower Threat Defense Software and Cisco FirePOWER Services ICMPv6 with Snort 2 Denial of Service Vulnerability</title>
@@ -757,20 +771,6 @@
 		       &lt;br /&gt;CVE: CVE-2023-20268</description>
     </item>
     <item>
-      <title>Cisco Wireless LAN Controller AireOS Software Denial of Service Vulnerability</title>
-      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cbw-dos-YSmbUqX3?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Wireless%20LAN%20Controller%20AireOS%20Software%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
-      <description>&lt;p&gt;A vulnerability in the memory buffer of Cisco Wireless LAN Controller (WLC) AireOS Software could allow an unauthenticated, adjacent attacker to cause memory leaks that could eventually lead to a device reboot.&lt;/p&gt;
-&lt;p&gt;This vulnerability is due to memory leaks caused by multiple clients connecting under specific conditions. An attacker could exploit this vulnerability by causing multiple wireless clients to attempt to connect to an access point (AP) on an affected device. A successful exploit could allow the attacker to cause the affected device to reboot after a significant amount of time, resulting in a denial of service (DoS) condition.&lt;/p&gt;
-
-&lt;p&gt;Cisco has released software updates that address this vulnerability. There is a&amp;nbsp;workaround that addresses this vulnerability.&lt;/p&gt;
-&lt;p&gt;This advisory is available at the following link: &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cbw-dos-YSmbUqX3&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cbw-dos-YSmbUqX3&lt;/a&gt;&lt;/p&gt;
-			      
-		          &lt;br /&gt;Security Impact Rating:  Medium
-		    
-		    
-		       &lt;br /&gt;CVE: CVE-2023-20251</description>
-    </item>
-    <item>
       <title>Cisco IOS XE Software for Catalyst 3650 and Catalyst 3850 Series Switches Denial of Service Vulnerability</title>
       <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cat3k-dos-ZZA4Gb3r?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Software%20for%20Catalyst%203650%20and%20Catalyst%203850%20Series%20Switches%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
       <description>&lt;p&gt;A vulnerability in Cisco IOS XE Software for Cisco Catalyst 3650 and Catalyst 3850 Series Switches could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition.&lt;/p&gt;
@@ -1242,6 +1242,16 @@
       <link>http://www.oracle.com/technology/deploy/security/pdf/cpu-jan-2005_advisory.pdf</link>
     </item>
     <item>
+      <title>CC-4415 - Apple Releases Security Updates Addressing Actively Exploited Vulnerabilities</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4415</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Two exploited zero-day vulnerabilities in Safari, iOS, iPadOS and macOS Sonoma could lead to arbitrary code execution or&amp;nbsp;unauthorised access&lt;/p&gt;&lt;p&gt; Two exploited zero-day vulnerabilities in Safari, iOS, iPadOS and macOS Sonoma could lead to arbitrary code execution or unauthorised access&lt;/p&gt;&lt;p&gt; Updated: 05 Dec 2023&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CC-4416 - Zyxel Releases Security Update</title>
+      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4416</link>
+      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Update addresses three critical and three high&amp;nbsp;vulnerabilities in several Network Attached Storage (NAS) devices&lt;/p&gt;&lt;p&gt; Update addresses three critical and three high vulnerabilities in several Network Attached Storage (NAS) devices&lt;/p&gt;&lt;p&gt; Updated: 05 Dec 2023&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CC-4413 - Foxit Releases Security Updates</title>
       <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4413</link>
       <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Security updates address multiple vulnerabilities affecting Foxit Reader and Foxit PDF Editor that could allow attackers to perform remote code execution on vulnerable systems&lt;/p&gt;&lt;p&gt; Security updates address multiple vulnerabilities affecting Foxit Reader and Foxit PDF Editor that could allow attackers to perform remote code execution on vulnerable systems&lt;/p&gt;&lt;p&gt; Updated: 01 Dec 2023&lt;/p&gt;</description>
@@ -1280,16 +1290,6 @@
       <title>CC-4409 - VMware Releases Critical Security Update for VMware Cloud Director Appliance</title>
       <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4409</link>
       <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Security update addresses an authentication bypass vulnerability in the&amp;nbsp;VMware Cloud Director Appliance platform&lt;/p&gt;&lt;p&gt; Security update addresses an authentication bypass vulnerability in the VMware Cloud Director Appliance platform&lt;/p&gt;&lt;p&gt; Updated: 15 Nov 2023&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CC-4408 - Microsoft Releases November 2023 Security Updates</title>
-      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4408</link>
-      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Scheduled updates for Microsoft products, including security updates for five zero-day vulnerabilities with three being exploited&lt;/p&gt;&lt;p&gt; Scheduled updates for Microsoft products, including security updates for five zero-day vulnerabilities with three being exploited&lt;/p&gt;&lt;p&gt; Updated: 15 Nov 2023&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CC-4368 - Multiple Vulnerabilities in Juniper Networks Junos OS</title>
-      <link>https://digital.nhs.uk/cyber-alerts/2023/cc-4368</link>
-      <description>&lt;p&gt;Severity: Medium&lt;/p&gt; &lt;p&gt;Critical out-of-band security updates highlight five vulnerabilities that can be chained to achieve pre-authentication remote code execution&lt;/p&gt;&lt;p&gt; Critical out-of-band security updates highlight five vulnerabilities that can be chained to achieve pre-authentication remote code execution&lt;/p&gt;&lt;p&gt; Updated: 14 Nov 2023&lt;/p&gt;</description>
     </item>
     <item>
       <title>curl and libcurl CVE-2023-38545 and CVE-2023-38546 vulnerabilities</title>
